@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "༙『ЖƊ❁‿❁ᴍᴜsɪᴄ』༙")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "⏤͟͞•ᴄᴏʀᴏɴᴀ ✘ ᴍᴜsɪᴄ🥰")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6545714937").split())
+    map(int, getenv("OWNER_ID", "2120619903").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -101,10 +101,10 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "ɪꝛᴏ log.txt"
+LOG_FILE_NAME = "ЖƊ log.txt"
 adminlist = {}
 lyrical = {}
-DEV = 6045293810
+DEV = 6545714937
 chatstats = {}
 userstats = {}
 clean = {}
@@ -276,5 +276,5 @@ if TELEGRAM_VIDEO_URL:
 
 if not MUSIC_BOT_NAME.isascii():
     print(
-        "[KYA RE LAVDE] - BOHOT FONT LAGANE KA SHAUKH HAI. JAA PHIR IRO KO APNI CHUMT DEKE AA"
+        "[KYA RE LAVDE] - BOHOT FONT LAGANE KA SHAUKH HAI. JAA PHIR ROCKY KO APNI CHUMT DEKE AA"
     )
